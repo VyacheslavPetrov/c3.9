@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<div>
+<body>
+<input id="textInput" type="text" value="" placeholder="Ваш город?" />
+<button id="clearButton">Clear</button>
+
+<!-- Кнопки -->
+
+<form> 
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check1">
+  <label class="form-check-label" for="check1">
+    не звонить мне
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check2">
+  <label class="form-check-label" for="check2">
+    я прочитал и согласен с правилами пользования сервисом
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check3">
+  <label class="form-check-label" for="check3">
+    я не выбираю эту галочку
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check4">
+  <label class="form-check-label" for="check4">
+    я подтверждаю, что свобода в интернете — это возможность выбирать галочки
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check4">
+  <label class="form-check-label" for="check4">
+    мне больше 12 лет
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" id="check5">
+  <label class="form-check-label" for="check5">
+    это задание выполнено правильно
+  </label>
+</div>
+
+</form>
+
+
+
+
+
+
+<script>
+document.getElementById("clearButton").onclick = function(e) {
+document.getElementById("textInput").value = "";
+}
+</script>
+	
+</body>
+
+</html>
